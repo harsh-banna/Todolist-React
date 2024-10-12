@@ -1,0 +1,75 @@
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(225, 220, 245);
+  color: blueviolet;
+  max-width: 400px;
+  padding: 2rem;
+  margin: auto;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .to-do-list{
+  display: flex;
+  gap: 1rem;
+} */
+li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+}
+.inputfield{
+  display: flex;
+  gap: 3rem;
+}
+.inputfield button{
+  border-radius: 8px;
+  border: 3px solid transparent;
+  background-color: #a65ee0;
+  cursor: pointer;
+}
+.btndiv{
+  display: flex;
+  gap: 1rem;
+}
+input{
+  background-color: #c9a4e7;
+  border-color: #6c0296;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.check {
+  width: 3vw;
+  height: 2vh;
+}
+.btn {
+  border-radius: 8px;
+  border: 3px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: small;
+  font-weight: 300;
+  background-color: #a65ee0;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #4b0766;
+}
+
+.items{
+display: flex;
+gap: 2rem;
+}
